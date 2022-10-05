@@ -8,6 +8,6 @@ package Modelo;
  *
  * @author JESUS MANUEL CORDERO
  */
-public class Nodo {
+public class Matriz {
     
 }
