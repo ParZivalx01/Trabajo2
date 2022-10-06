@@ -4,10 +4,12 @@
  */
 package Modelo;
 
+import java.awt.Point;
+
 /**
  *
  * @author JESUS MANUEL CORDERO
  */
-public class Matriz {
-    
+public class Vertice {
+  
 }
