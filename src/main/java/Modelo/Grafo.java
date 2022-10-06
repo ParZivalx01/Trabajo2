@@ -1,17 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package Modelo;
 
 import java.awt.Point;
 
-/**
- *
- * @author JESUS MANUEL CORDERO
- */
 public class Grafo {
-    
+
     private Point punto;
     private boolean Ver = false;
     private boolean Aris = false;
@@ -23,14 +16,12 @@ public class Grafo {
     private int maxVer = 10;
     private int maxAris = nombreAris.length;
 
-    private static int i = -1, j = -1;    
+    private static int i = -1, j = -1;
     private boolean MAdyacencia[][] = new boolean[maxVer][maxVer];
     private boolean MIncidencia[][] = new boolean[maxVer][maxAris];
 
     private String matrizAdyacente = "", matrizIncedencia = "";
 
-    
-    
     public void inicializar() {
         for (int r = 0; r < maxVer; r++) {
             for (int s = 0; s < maxVer; s++) {
@@ -43,6 +34,5 @@ public class Grafo {
             }
         }
     }
-    
-  
+
 }
